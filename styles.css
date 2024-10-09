@@ -6,177 +6,178 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-  
-  body {
-    padding: 4rem; /* 16px * 4 = 64px */
+}
+
+body {
+    padding: 4rem;
+    /* 16px * 4 = 64px */
     /* display: flex;
     gap: 2rem;
     justify-content: center; */
     background-color: lightgray;
-  }
-  
-  .text-block {
+}
+
+.text-block {
     width: 420px;
     border: 1px salmon solid;
     padding: 1rem;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
     margin-bottom: .5em;
     margin-top: 1em;
-  }
-  
-  p {
+}
+
+p {
     /* font-family: Arial, Helvetica, sans-serif; */
     /* font-family: "Roboto", sans-serif; */
     font-family: 'Publik', sans-serif;
     font-weight: normal;
     font-size: 1rem;
     line-height: 140%;
-  }
-  
-  a {
+}
+
+a {
     /* display: inline-block; */
     margin: 1rem;
-  }
-  
-  .bold {
+}
+
+.bold {
     font-weight: bold;
-  }
-  
-  em {
+}
+
+em {
     font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .italic {
+}
+
+.italic {
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .text-left {
+}
+
+.text-left {
     text-align: left;
-  }
-  
-  .text-center {
+}
+
+.text-center {
     text-align: center;
-  }
-  
-  .text-right {
+}
+
+.text-right {
     text-align: right;
-  }
-  
-  .text-justified {
+}
+
+.text-justified {
     text-align: justify;
-  }
-  
-  .text-red {
+}
+
+.text-red {
     color: red;
-  }
-  
-  /* GLOBAL FLAG */
-  .flag {
+}
+
+/* GLOBAL FLAG */
+.flag {
     position: relative;
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .flag-2-3 {
+}
+
+.flag-2-3 {
     width: 600px;
     height: 400px;
-  }
-  
-  .bars {
+}
+
+.bars {
     height: 100%;
     width: 100%;
-  }
-  
-  /* JAPAN */
-  .japan {
+}
+
+/* JAPAN */
+.japan {
     background-color: white;
-  }
-  
-  .japan .red-dot {
+}
+
+.japan .red-dot {
     height: 200px;
     width: 200px;
     background-color: rgb(151, 4, 9);
     border-radius: 100%;
-  }
-  
-  /* SWEDEN */
-  .sweden {
-    background-color:#005293;
-  }
-  
-  .sweden .line {
+}
+
+/* SWEDEN */
+.sweden {
+    background-color: #005293;
+}
+
+.sweden .line {
     background-color: #FFCD00;
-  }
-  
-  .sweden .line.horizontal-line {
+}
+
+.sweden .line.horizontal-line {
     height: 4rem;
     width: 100%;
-  }
-  
-  .sweden .line.vertical-line {
+}
+
+.sweden .line.vertical-line {
     height: 100%;
     width: 4rem;
     position: absolute;
     top: 0;
     left: 30%;
-  }
-  
-  /* ITALY */
-  
-  .italy {
-  
-  }
-  
-  .italy .green {
+}
+
+/* ITALY */
+
+/* .italy {
+
+} */
+
+.italy .green {
     background-color: #008C45;
-  }
-  
-  .italy .white {
+}
+
+.italy .white {
     background-color: #F4F9FF;
-  }
-  
-  .italy .red {
+}
+
+.italy .red {
     background-color: #CD212A;
-  }
-  
-  .france .blue {
+}
+
+.france .blue {
     background-color: #002654;
-  }
-  
-  .france .white {
+}
+
+.france .white {
     background-color: white;
-  }
-  
-  .france .red {
+}
+
+.france .red {
     background-color: #ED2939;
-  }
-  
-  
-  .pride {
+}
+
+
+.pride {
     background-color: lightblue;
     /* Det är overflow som styrs så att vi kan "klippa bort innehåll som ligger utanför div:en */
     overflow: hidden;
-  }
-  
-  .square {
+}
+
+.square {
     height: 260px;
     width: 260px;
     transform: rotate(45deg);
     background-color: purple;
     position: absolute;
     left: -130px;
-  }
+}
